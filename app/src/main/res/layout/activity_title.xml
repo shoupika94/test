@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tltle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="楽しいクイズアプリ"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/normal_mode_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通常モード"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/normal_mode_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="開始" />
+
+    <TextView
+        android:id="@+id/review_mode_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="復習モード"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/review_mode_button"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:text="開始" />
+</LinearLayout>

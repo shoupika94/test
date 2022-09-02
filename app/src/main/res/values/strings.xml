@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">New testgame</string>
+
+    <!-- クイズ画面 -->
+    <string name="question_label">question</string>
+    <string name="count_label">Q%d</string>
+    <string name="btn_answer">選択肢</string>
+
+    <!-- リザルト画面 -->
+    <string name="result_title">結果</string>
+    <string name="result_score">5問中%d問正解しました</string>
+    <string name="btn_try_again">もう一度</string>
+</resources>
